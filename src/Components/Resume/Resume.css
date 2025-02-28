@@ -1,0 +1,172 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.resume-title {
+    position: relative;
+}
+
+.resume-title h1 {
+    padding: 0px 30px;
+    font-size: 50px;
+    font-weight: 600px;
+}
+
+.resume-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.resume-para {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.resume-para span {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.experience h1 {
+    padding: 0px 30px;
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.underline {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    margin-top: 10px;
+}
+
+.experience-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 50%;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.date {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.experience-details h5 {
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.experience-details p {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #DF8908;
+}
+
+.descriptions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.experience h1 {
+    padding: 0px 30px;
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.education-underline {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    margin-top: 30px;
+}
+
+.education-details {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 30px 60px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.detail h2 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.detail span {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.detail p {
+    margin-top: 30px;
+}
+
+.percent {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    font-weight: 800;
+}
