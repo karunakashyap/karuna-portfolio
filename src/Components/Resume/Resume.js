@@ -4,7 +4,7 @@ import themePattern from '../../Assets/theme_pattern.svg'
 
 const Resume = () => {
     return (
-        <div className='resume'>
+        <div className='resume' id='resume'>
             <div className="resume-title">
                 <h1>Resume</h1>
                 <img src={themePattern} alt=''></img>
