@@ -39,7 +39,7 @@ const Resume = () => {
             </div>
             <div className="education">
                 <h1>Education</h1>
-                <div className='education-underline'></div>
+                <div className='underline'></div>
                 <div className='education-details'>
                     <div className="detail">
                         <div className="date">2019-2023</div>

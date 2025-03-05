@@ -132,7 +132,7 @@
     display: flex;
     flex-direction: row;
     gap: 100px;
-    padding: 30px 60px;
+    /* padding: 30px 60px; */
 }
 
 .detail {
@@ -141,8 +141,12 @@
     justify-content: center;
     gap: 10px;
     background: rgba(255, 255, 255, 0.1);
+    /* margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 30px; */
     margin-top: 20px;
     margin-bottom: 30px;
+    width: 50%;
     padding: 30px;
     border-radius: 5px;
 }
@@ -169,4 +173,42 @@
     -webkit-text-fill-color: transparent;
     font-size: 18px;
     font-weight: 800;
+}
+
+@media(max-width:768px) {
+    .resume {
+        gap: 70px;
+        margin: 20px 70px;
+    }
+
+    .resume-title h1 {
+        padding: 0;
+        font-size: 50px;
+    }
+
+    .resume-title img {
+        width: 130px;
+        margin-right: -20px;
+    }
+
+    .resume-para {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .experience-details{
+        width: 100%;
+    }
+    .descriptions{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .education-details{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .detail{
+        width: 100%;
+    }
+
 }
